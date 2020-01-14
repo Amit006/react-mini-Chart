@@ -124,7 +124,7 @@ class MiniChart extends React.Component {
       >
         <svg
           onMouseMove={this.handleMouseMove}
-          style={{ transition: 'all 0.3s', display: 'block', backgroundColor:'yellow', }}
+          style={{ transition: 'all 0.3s', display: 'block' }}
           width={width}
           height={height}
           xmlns="http://www.w3.org/2000/svg"
